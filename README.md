@@ -6,6 +6,12 @@ This project aims to predict the effectiveness of a Portuguese banking instituti
 
 The data includes information on the number of contacts made to each client and other relevant features. The project will involve analyzing the data to classify whether a client will subscribe to the term deposit product or not. This analysis will provide valuable insights into the bank's marketing strategy and inform future campaign efforts. The results of the analysis will help the bank optimize its marketing efforts and increase its chances of success in selling its products to clients.
 
+Dataset Information
+
+Number of instances: 45,211
+
+Number of attributes: 17
+
 #***Features information***:
 
 * **Age**: Numeric
@@ -43,10 +49,8 @@ The data includes information on the number of contacts made to each client and 
 * **y**: Has the client subscribed to term deposit?  [Yes/No]
 
 
-
-Download link: https://www.kaggle.com/mlg-ulb/creditcardfraud
-
 Libraries
+
 pandas
 
 matplotlib
