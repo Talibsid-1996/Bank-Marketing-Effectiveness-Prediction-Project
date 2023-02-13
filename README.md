@@ -1,18 +1,18 @@
 # Bank-Marketing-Effectiveness-Prediction-Project- Classification
 
-#Project Summary
+## Project Summary
 
 This project aims to predict the effectiveness of a Portuguese banking institution's direct marketing campaigns through phone calls. The objective of these campaigns was to sell a bank term deposit product to clients. The success of the campaign was determined by whether the client subscribed to the product or not, which is represented by the binary variable "y" (YES or NO).
 
 The data includes information on the number of contacts made to each client and other relevant features. The project will involve analyzing the data to classify whether a client will subscribe to the term deposit product or not. This analysis will provide valuable insights into the bank's marketing strategy and inform future campaign efforts. The results of the analysis will help the bank optimize its marketing efforts and increase its chances of success in selling its products to clients.
 
-Dataset Information
+## Dataset Information
 
 Number of instances: 45,211
 
 Number of attributes: 17
 
-#***Features information***:
+## ***Features information***:
 
 * **Age**: Numeric
 
@@ -44,12 +44,12 @@ Number of attributes: 17
 
 * **poutcome**: outcome of the previous marketing campaign [failure,success,unknown]
 
-#***Target Variable*** :
+## ***Target Variable*** :
 
 * **y**: Has the client subscribed to term deposit?  [Yes/No]
 
 
-Libraries
+## Libraries :
 
 pandas
 
@@ -71,8 +71,8 @@ Random Forest
 
 XGBoost
 
-So for final prediction we choosed KNearest Neighbour as best model.
+## So for final prediction we choosed KNearest Neighbour as best model.
 
-Its giving us the best result compare to other models
+## Its giving us the best result compare to other models
 
-with Accuracy (91%) and f1 score (92%))
+## with Accuracy (91%) and f1 score (92%))
